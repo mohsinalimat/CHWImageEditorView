@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CHWImageEditorView_Example' do
+  pod 'CHWImageEditorView', :path => '../'
+
+  target 'CHWImageEditorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
