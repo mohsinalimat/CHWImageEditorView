@@ -1,0 +1,16 @@
+PODS:
+  - CHWImageEditorView (0.1.0)
+
+DEPENDENCIES:
+  - CHWImageEditorView (from `../`)
+
+EXTERNAL SOURCES:
+  CHWImageEditorView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHWImageEditorView: 04936b0c754952810120c3d7904d9c201ba02fa3
+
+PODFILE CHECKSUM: 66d66a81ab3f4f900f296c4e90b367c460918a58
+
+COCOAPODS: 1.8.4

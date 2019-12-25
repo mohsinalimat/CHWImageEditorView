@@ -1,0 +1,6 @@
+framework module CHWImageEditorView {
+  umbrella header "CHWImageEditorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

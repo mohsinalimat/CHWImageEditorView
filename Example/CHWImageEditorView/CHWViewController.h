@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface CHWViewController : UIViewController
-
+@property(nonatomic,copy)void(^GetCropImageBlock)(UIImage* cropImage);
 @end

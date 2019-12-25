@@ -1,0 +1,27 @@
+{
+  "name": "CHWImageEditorView",
+  "version": "0.1.0",
+  "summary": "A short description of CHWImageEditorView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JackyHeWei/CHWImageEditorView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JackyHeWei": "Cherish_wei_he@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JackyHeWei/CHWImageEditorView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CHWImageEditorView/Classes/**/*",
+  "resource_bundles": {
+    "CHWImageEditorView": [
+      "CHWImageEditorView/Assets/*"
+    ]
+  }
+}

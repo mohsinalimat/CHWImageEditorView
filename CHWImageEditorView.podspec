@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of CHWImageEditorView.'
 
+
+
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -31,9 +33,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CHWImageEditorView/Classes/**/*'
+
+  s.resource_bundles = {
+      'CHWImageEditorView' => ['CHWImageEditorView/Assets/*']
+  }
   
   # s.resource_bundles = {
-  #   'CHWImageEditorView' => ['CHWImageEditorView/Assets/*.png']
+  #   'CHWImageEditorView' => ['CHWImageEditorView/Assets/*.{png,storyboard,xib}']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C7C5C943A564A2AFE60FE4B225A693 /* CHWBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B3A47F99C5C0FD3BFBC6714E531155 /* CHWBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A257FECE4B4A8C42BECC975286C7A6 /* CHWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B32902034D19A2266AECF478B3796C /* CHWScrollView.m */; };
+		0A566D0B0E90014408E46F1CF1385AF5 /* rotate_right_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A325D0494158C3D19C7EB0CA0096CD /* rotate_right_on@3x.png */; };
+		1317DB013FE19B656D6E891439EAD2BA /* CHWCollectionViewRotateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A81C4C2E896BA6DC2483BCA940DFC9E5 /* CHWCollectionViewRotateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D01CC161490FD1B9774DD42E815A55 /* CHWShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F051A087BAE94D288828DD89C7FA4E0 /* CHWShapeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B129ED359D9FD9721465F3B2E48DD99 /* UIImage+CHWImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4373809BCDF73ABD787AC8951E180CC /* UIImage+CHWImageTool.m */; };
+		1CF34EA942184F935F0CC3FB9677A1E8 /* CropBoxLockedAspectFrameBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C4ECFEE6D4F24C7CE39FDEABDFC730 /* CropBoxLockedAspectFrameBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2540EF91891EAFAC85C778257B090C /* rotate_left_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF74B117AE682F80C9AE593A7C3E230 /* rotate_left_on@3x.png */; };
+		277A91F08220F6555FFF6C4F0D829F6D /* rotate_right_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02630AA86470AFE223F7B1A906C5F025 /* rotate_right_off@3x.png */; };
+		27CF0B146BE4B35AFD28BF39EF493179 /* CHWCropRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 613D50579522E18F6AC3E3080FDADFCD /* CHWCropRotateView.m */; };
+		2B0BB4553D17B4F651C954F53976BD42 /* RotationCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B4CC30F6DE7E9982328F026D0C2D1C /* RotationCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC9137EC70683ECD67B420F6EA68B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		399269583E817A306CC568297672EDF7 /* CropBoxFreeAspectFrameBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCE384927FAC2AA16E013BF68DE4F0D /* CropBoxFreeAspectFrameBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39AB0C5DF86AAE6643B9A9A0BE372C47 /* CHWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C5500C23CAB46C35A23920FFC6F10346 /* CHWUtils.m */; };
+		3C80D14B4ED5D94E9B4B7219BCF74671 /* CropBoxFreeAspectFrameBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 582C133226F3714843C34AAE3252FCAF /* CropBoxFreeAspectFrameBuilder.m */; };
+		3D9D414864988422ED0046EC0768431D /* CHWCropRotateToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E726D866670EB450EF6E034718B20 /* CHWCropRotateToolBar.m */; };
+		4214F20F6113D215605911D15496C580 /* CropRotateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C7E8AC588CB0BA181576316C299CF8 /* CropRotateConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455F132F3860B3116C8B8CB97CF6E36A /* CHWAngle.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA5C008F792358BBAFEB72C88FF41CB /* CHWAngle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E203296E51DD3D92009E23D5FF3E5C /* UIImage+EditImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA77D70899C2DAC873968F4C2631865C /* UIImage+EditImageWithColor.m */; };
+		5B34DEDA2ACB5096085E940DB2236AF4 /* CHWCropRotateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B30179FD2AA5E29F52D6033ECB856D2 /* CHWCropRotateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEA0DECE96FDCAE7FA02EA92A532120 /* CHWAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = D462282384F5518DA6808BF8970613F9 /* CHWAngle.m */; };
+		5DBD4BBF8180DA343F0E2526E68EDDC6 /* CHWGridOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC40F64B75D8DEE8BD7BCE98A370A8BA /* CHWGridOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6189F7ACD385AE6C2D37FCA8A165714C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62764237D1ABEC2AC1AB8E651B6E0C8A /* CHWCropInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6BEF575F44F97C84438B3862E6C0B2 /* CHWCropInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64255F5F6DE20BA34FA9217508AACBAB /* CHWGridOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7158F5BFB2CD4118FF039CFACEEDD0C /* CHWGridOverlayView.m */; };
+		6562CE9ADF89FA1D1D7B68E7A420C641 /* Pods-CHWImageEditorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1633B0EB35198E3136EC65C0B5370B41 /* Pods-CHWImageEditorView_Tests-dummy.m */; };
+		6B31A2BDA17EAE4214799EFED217455F /* UIImage+CHWImageTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 993BD854B55B39B2737E9CCE8A1F66E9 /* UIImage+CHWImageTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF38C1C72FD3E70B2613381F107488D /* RotationCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 893F7DEA8800BF4908B65427B354B3DA /* RotationCalculator.m */; };
+		6ED2743624A5707692C03FEE68574C8E /* CHWImageEditorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F88047A9C3FD11531BFA1A622F393DD5 /* CHWImageEditorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE4E5F8DDB2A0FDD27E532E88E73F4C /* CropBoxLockedAspectFrameBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 912A4C89E7E0A1117652D6DFEFF69210 /* CropBoxLockedAspectFrameBuilder.m */; };
+		8032B894C474ABE2F69300821FB04173 /* CHWCropInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D48E682BD61FE4E8449D9D7206CABE /* CHWCropInfoModel.m */; };
+		852BDD0EE19BDF9A4C969E3D4EC7A1C3 /* CHWShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7B7FEA858975EBC31055517AF467B /* CHWShapeView.m */; };
+		9F42E5DB5484825723C2D99051F5E203 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 55E1FFE55A484D097EB3229C0B782237 /* en.lproj */; };
+		A925E0D84155C60CD28471A12FBB5175 /* CHWBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E3E774F49EBBA901DB545A9BDBA98 /* CHWBarItem.m */; };
+		AB4641506CC4F549729841F75A802DBD /* UIImage+EditImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DA08433A91A3104096943E5A835460 /* UIImage+EditImageWithColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11EDF1A56FF59392B6BAB6FC2F27D86 /* CHWWheelDial.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFAE13638B8361FFF0AD3F8CB8E0965 /* CHWWheelDial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34600FA5D53775DD4ADBE2869FDCE93 /* CHWCropRotateToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE91E6B2557E4FE376CA7D469B8F076 /* CHWCropRotateToolBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6BE0469CF73AFE34AE22BA54225483 /* CHWUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 002A86C01D3693977088422F57B991AD /* CHWUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5854E55C6B39365D8168D267D87FCBA /* Pods-CHWImageEditorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A036E66A5B804A6D9CCA181307948A89 /* Pods-CHWImageEditorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0580FBCCAF01DD870515B24F9EA302D /* CHWImageEditorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F96C6BF187E44C8148B44E31EC02D7EC /* CHWImageEditorView.bundle */; };
+		D26E23761530EDD2C53838D460690CBF /* CHWCollectionViewRotateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5429081C8A0E43D796A1E877655FD887 /* CHWCollectionViewRotateCell.xib */; };
+		D99E2EE8130275E6AB14A9245D114C64 /* CHWBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BB5CAF27DD4AA19D83864988F62635 /* CHWBottomBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2A381CD6DED0369A4E7B8550BFE859 /* rotate_left_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D91247113664CC35B0D16D834B4EF5C /* rotate_left_off@3x.png */; };
+		DBD05DA6FF88B6A03F780F03C642DC2F /* CHWMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF5F451597B7C095FFE525EDBC3374 /* CHWMaskView.m */; };
+		DC3BA37CD013D5F6D0413CFC64DE750A /* CHWWheelDial.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D8015087DEC5C1ECF44738E2A8325F /* CHWWheelDial.m */; };
+		DD51DA98A148366A4A8F764FDAF88E0B /* CHWBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 105F720BFBF0BADD7882FAC4BBB596C7 /* CHWBottomBar.m */; };
+		DE1ECFC67DF13D410BD01353788CBA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DFFBAF66C6C52A8536BA0218F9371C0B /* CropRotateConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D5395E5388F4AA36D809B1AA82A49ECC /* CropRotateConfig.m */; };
+		E604B2006077D5479921E52F632891A4 /* CHWCollectionViewRotateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143D7BAF882A8470522BFD0F0AF830C /* CHWCollectionViewRotateCell.m */; };
+		E64A2F94685083A11F31693BF67F23A9 /* CHWImageEditorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA07020442B93F11EF27EBEC8BC99FF /* CHWImageEditorView-dummy.m */; };
+		EDAAA2F15A9B8365BC06D0DAD72DDD83 /* Pods-CHWImageEditorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1306C1433FB6952375607E33413677 /* Pods-CHWImageEditorView_Example-dummy.m */; };
+		EEF9535B70AC5AF6AB23EADE064B7F40 /* Pods-CHWImageEditorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4953BA977DDC4A5560B893625588595 /* Pods-CHWImageEditorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03285F1E6FF0A86B41EFFAA7B98E67B /* CHWConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B98B35252057A9FFEF8AAFFC93E3D /* CHWConfigModel.m */; };
+		F56DF6C4BFB493D83522E350FB14C468 /* CHWScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5881B8B7E0F44CF579A34E8B58A26C96 /* CHWScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F0BF2BD507BC543ECEE77A5B396332 /* CHWMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = 663E4877F5016B51A111D037E7DE7091 /* CHWMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F950766A115CDAD2363F2A927DF97F86 /* CHWConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4C9A6713474E5A5390EE85C79A7271 /* CHWConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDEAC7EDD0E5ABBE2EE1D1C9C086CDA0 /* CHWMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F26F20C0F2DEF85AE7C82AABD5E11586 /* CHWMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D7E41ADF6A633FDF17C2BD1EA0326E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36310AF8362D8EB0EE2796FDE80A05C;
+			remoteInfo = "Pods-CHWImageEditorView_Example";
+		};
+		499D0F4487FB7443774F387856EDD084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55255909ACB4AE2AEB8E38BD25B88DFC;
+			remoteInfo = CHWImageEditorView;
+		};
+		C34C3CD16D216293B49B0E0CB62A146D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD33E86BEC541EA4130CEF9F6694E16;
+			remoteInfo = "CHWImageEditorView-CHWImageEditorView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002A86C01D3693977088422F57B991AD /* CHWUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWUtils.h; path = CHWImageEditorView/Classes/CHWUtils.h; sourceTree = "<group>"; };
+		02630AA86470AFE223F7B1A906C5F025 /* rotate_right_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate_right_off@3x.png"; path = "CHWImageEditorView/Assets/rotate_right_off@3x.png"; sourceTree = "<group>"; };
+		0628F9776FD871A139843926D04B7560 /* Pods-CHWImageEditorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHWImageEditorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BA07020442B93F11EF27EBEC8BC99FF /* CHWImageEditorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHWImageEditorView-dummy.m"; sourceTree = "<group>"; };
+		0E1E726D866670EB450EF6E034718B20 /* CHWCropRotateToolBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWCropRotateToolBar.m; path = CHWImageEditorView/Classes/CHWCropRotateToolBar.m; sourceTree = "<group>"; };
+		0F6BEF575F44F97C84438B3862E6C0B2 /* CHWCropInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWCropInfoModel.h; path = CHWImageEditorView/Classes/CHWCropInfoModel.h; sourceTree = "<group>"; };
+		105F720BFBF0BADD7882FAC4BBB596C7 /* CHWBottomBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWBottomBar.m; path = CHWImageEditorView/Classes/CHWBottomBar.m; sourceTree = "<group>"; };
+		10C7E8AC588CB0BA181576316C299CF8 /* CropRotateConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropRotateConfig.h; path = CHWImageEditorView/Classes/CropRotateConfig.h; sourceTree = "<group>"; };
+		11F40B545B245F481DE201742FD22667 /* Pods-CHWImageEditorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHWImageEditorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1633B0EB35198E3136EC65C0B5370B41 /* Pods-CHWImageEditorView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHWImageEditorView_Tests-dummy.m"; sourceTree = "<group>"; };
+		16CF5F451597B7C095FFE525EDBC3374 /* CHWMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWMaskView.m; path = CHWImageEditorView/Classes/CHWMaskView.m; sourceTree = "<group>"; };
+		1B30179FD2AA5E29F52D6033ECB856D2 /* CHWCropRotateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWCropRotateView.h; path = CHWImageEditorView/Classes/CHWCropRotateView.h; sourceTree = "<group>"; };
+		2143D7BAF882A8470522BFD0F0AF830C /* CHWCollectionViewRotateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWCollectionViewRotateCell.m; path = CHWImageEditorView/Classes/CHWCollectionViewRotateCell.m; sourceTree = "<group>"; };
+		2B4C9A6713474E5A5390EE85C79A7271 /* CHWConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHWConfigModel.h; sourceTree = "<group>"; };
+		2D0A4185C355D76C0E0EB2865BF0F125 /* Pods-CHWImageEditorView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHWImageEditorView_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38D48E682BD61FE4E8449D9D7206CABE /* CHWCropInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWCropInfoModel.m; path = CHWImageEditorView/Classes/CHWCropInfoModel.m; sourceTree = "<group>"; };
+		3AFAE13638B8361FFF0AD3F8CB8E0965 /* CHWWheelDial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHWWheelDial.h; sourceTree = "<group>"; };
+		4339BC013B6AB6B1D5D8D12EAF2D7F47 /* Pods-CHWImageEditorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHWImageEditorView_Tests.modulemap"; sourceTree = "<group>"; };
+		45EA4E3E9A7B970D416367BD328D5FD4 /* CHWImageEditorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHWImageEditorView.modulemap; sourceTree = "<group>"; };
+		47A9B5EB3FE4BEC3E7D2CF1C43BCA534 /* CHWImageEditorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHWImageEditorView-Info.plist"; sourceTree = "<group>"; };
+		4C5E3E774F49EBBA901DB545A9BDBA98 /* CHWBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWBarItem.m; path = CHWImageEditorView/Classes/CHWBarItem.m; sourceTree = "<group>"; };
+		5429081C8A0E43D796A1E877655FD887 /* CHWCollectionViewRotateCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CHWCollectionViewRotateCell.xib; path = CHWImageEditorView/Assets/CHWCollectionViewRotateCell.xib; sourceTree = "<group>"; };
+		55E1FFE55A484D097EB3229C0B782237 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = CHWImageEditorView/Assets/en.lproj; sourceTree = "<group>"; };
+		582C133226F3714843C34AAE3252FCAF /* CropBoxFreeAspectFrameBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CropBoxFreeAspectFrameBuilder.m; path = CHWImageEditorView/Classes/CropBoxFreeAspectFrameBuilder.m; sourceTree = "<group>"; };
+		5881B8B7E0F44CF579A34E8B58A26C96 /* CHWScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWScrollView.h; path = CHWImageEditorView/Classes/CHWScrollView.h; sourceTree = "<group>"; };
+		58E3DB9F1C6748799039B19602632244 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59DA08433A91A3104096943E5A835460 /* UIImage+EditImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+EditImageWithColor.h"; path = "CHWImageEditorView/Classes/UIImage+EditImageWithColor.h"; sourceTree = "<group>"; };
+		5A7B98B35252057A9FFEF8AAFFC93E3D /* CHWConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHWConfigModel.m; sourceTree = "<group>"; };
+		5BC8FDD1C6E7CE1594CA4217B800E58E /* Pods_CHWImageEditorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHWImageEditorView_Example.framework; path = "Pods-CHWImageEditorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F051A087BAE94D288828DD89C7FA4E0 /* CHWShapeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWShapeView.h; path = CHWImageEditorView/Classes/CHWShapeView.h; sourceTree = "<group>"; };
+		613D50579522E18F6AC3E3080FDADFCD /* CHWCropRotateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWCropRotateView.m; path = CHWImageEditorView/Classes/CHWCropRotateView.m; sourceTree = "<group>"; };
+		663E4877F5016B51A111D037E7DE7091 /* CHWMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWMaskView.h; path = CHWImageEditorView/Classes/CHWMaskView.h; sourceTree = "<group>"; };
+		67B3A47F99C5C0FD3BFBC6714E531155 /* CHWBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWBarItem.h; path = CHWImageEditorView/Classes/CHWBarItem.h; sourceTree = "<group>"; };
+		6A3FDC24E4D31CD1749E1D4593B7F67C /* Pods-CHWImageEditorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHWImageEditorView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D674255C5614B08C133F7D7B7F34460 /* CHWImageEditorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CHWImageEditorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		711249EF87C9EAA126BA922DB3F38734 /* CHWImageEditorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHWImageEditorView.framework; path = CHWImageEditorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C4ECFEE6D4F24C7CE39FDEABDFC730 /* CropBoxLockedAspectFrameBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropBoxLockedAspectFrameBuilder.h; path = CHWImageEditorView/Classes/CropBoxLockedAspectFrameBuilder.h; sourceTree = "<group>"; };
+		7F6C44F62A800F709CE77D77B51066D9 /* Pods-CHWImageEditorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHWImageEditorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		877B92485ECDE5CC8F7C59D07D8D571E /* Pods-CHWImageEditorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHWImageEditorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		893F7DEA8800BF4908B65427B354B3DA /* RotationCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RotationCalculator.m; sourceTree = "<group>"; };
+		8DC7B7FEA858975EBC31055517AF467B /* CHWShapeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWShapeView.m; path = CHWImageEditorView/Classes/CHWShapeView.m; sourceTree = "<group>"; };
+		912A4C89E7E0A1117652D6DFEFF69210 /* CropBoxLockedAspectFrameBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CropBoxLockedAspectFrameBuilder.m; path = CHWImageEditorView/Classes/CropBoxLockedAspectFrameBuilder.m; sourceTree = "<group>"; };
+		993BD854B55B39B2737E9CCE8A1F66E9 /* UIImage+CHWImageTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CHWImageTool.h"; path = "CHWImageEditorView/Classes/UIImage+CHWImageTool.h"; sourceTree = "<group>"; };
+		9B1306C1433FB6952375607E33413677 /* Pods-CHWImageEditorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHWImageEditorView_Example-dummy.m"; sourceTree = "<group>"; };
+		9B983AA235AB196537963450AC58D572 /* Pods-CHWImageEditorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHWImageEditorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D91247113664CC35B0D16D834B4EF5C /* rotate_left_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate_left_off@3x.png"; path = "CHWImageEditorView/Assets/rotate_left_off@3x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E89A11673E52C27EB9260F084A34732 /* Pods-CHWImageEditorView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHWImageEditorView_Example-Info.plist"; sourceTree = "<group>"; };
+		A036E66A5B804A6D9CCA181307948A89 /* Pods-CHWImageEditorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHWImageEditorView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A4466D467F05399F98CC03B0CA520659 /* Pods-CHWImageEditorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHWImageEditorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A81C4C2E896BA6DC2483BCA940DFC9E5 /* CHWCollectionViewRotateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWCollectionViewRotateCell.h; path = CHWImageEditorView/Classes/CHWCollectionViewRotateCell.h; sourceTree = "<group>"; };
+		AEA5DD06FC929FAB1656BB80D8CAC743 /* Pods_CHWImageEditorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHWImageEditorView_Tests.framework; path = "Pods-CHWImageEditorView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37F7C609DAE70AFC6F2759977DD899F /* Pods-CHWImageEditorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHWImageEditorView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B4373809BCDF73ABD787AC8951E180CC /* UIImage+CHWImageTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CHWImageTool.m"; path = "CHWImageEditorView/Classes/UIImage+CHWImageTool.m"; sourceTree = "<group>"; };
+		B7158F5BFB2CD4118FF039CFACEEDD0C /* CHWGridOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWGridOverlayView.m; path = CHWImageEditorView/Classes/CHWGridOverlayView.m; sourceTree = "<group>"; };
+		BA8F17A1AF92D3E587301DF72A0C07AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC40F64B75D8DEE8BD7BCE98A370A8BA /* CHWGridOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWGridOverlayView.h; path = CHWImageEditorView/Classes/CHWGridOverlayView.h; sourceTree = "<group>"; };
+		C1D8015087DEC5C1ECF44738E2A8325F /* CHWWheelDial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHWWheelDial.m; sourceTree = "<group>"; };
+		C2A325D0494158C3D19C7EB0CA0096CD /* rotate_right_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate_right_on@3x.png"; path = "CHWImageEditorView/Assets/rotate_right_on@3x.png"; sourceTree = "<group>"; };
+		C4953BA977DDC4A5560B893625588595 /* Pods-CHWImageEditorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHWImageEditorView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C5500C23CAB46C35A23920FFC6F10346 /* CHWUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWUtils.m; path = CHWImageEditorView/Classes/CHWUtils.m; sourceTree = "<group>"; };
+		C8BB5CAF27DD4AA19D83864988F62635 /* CHWBottomBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWBottomBar.h; path = CHWImageEditorView/Classes/CHWBottomBar.h; sourceTree = "<group>"; };
+		CBF74B117AE682F80C9AE593A7C3E230 /* rotate_left_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate_left_on@3x.png"; path = "CHWImageEditorView/Assets/rotate_left_on@3x.png"; sourceTree = "<group>"; };
+		CDA5C008F792358BBAFEB72C88FF41CB /* CHWAngle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHWAngle.h; sourceTree = "<group>"; };
+		D0B32902034D19A2266AECF478B3796C /* CHWScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHWScrollView.m; path = CHWImageEditorView/Classes/CHWScrollView.m; sourceTree = "<group>"; };
+		D462282384F5518DA6808BF8970613F9 /* CHWAngle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHWAngle.m; sourceTree = "<group>"; };
+		D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHWImageEditorView.xcconfig; sourceTree = "<group>"; };
+		D5395E5388F4AA36D809B1AA82A49ECC /* CropRotateConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CropRotateConfig.m; path = CHWImageEditorView/Classes/CropRotateConfig.m; sourceTree = "<group>"; };
+		DFCE384927FAC2AA16E013BF68DE4F0D /* CropBoxFreeAspectFrameBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropBoxFreeAspectFrameBuilder.h; path = CHWImageEditorView/Classes/CropBoxFreeAspectFrameBuilder.h; sourceTree = "<group>"; };
+		E1A30DCDC3EDD9F77A8E1FD7A2C5B8C0 /* Pods-CHWImageEditorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHWImageEditorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9CEED51A37664ECA2B3F6BFAE387A80 /* CHWImageEditorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHWImageEditorView-prefix.pch"; sourceTree = "<group>"; };
+		EDE91E6B2557E4FE376CA7D469B8F076 /* CHWCropRotateToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWCropRotateToolBar.h; path = CHWImageEditorView/Classes/CHWCropRotateToolBar.h; sourceTree = "<group>"; };
+		F26F20C0F2DEF85AE7C82AABD5E11586 /* CHWMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHWMacroDefine.h; path = CHWImageEditorView/Classes/CHWMacroDefine.h; sourceTree = "<group>"; };
+		F88047A9C3FD11531BFA1A622F393DD5 /* CHWImageEditorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHWImageEditorView-umbrella.h"; sourceTree = "<group>"; };
+		F8B4CC30F6DE7E9982328F026D0C2D1C /* RotationCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RotationCalculator.h; sourceTree = "<group>"; };
+		F96C6BF187E44C8148B44E31EC02D7EC /* CHWImageEditorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CHWImageEditorView.bundle; path = "CHWImageEditorView-CHWImageEditorView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA77D70899C2DAC873968F4C2631865C /* UIImage+EditImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+EditImageWithColor.m"; path = "CHWImageEditorView/Classes/UIImage+EditImageWithColor.m"; sourceTree = "<group>"; };
+		FD914C56B0A97FD73276FE07D0401C38 /* Pods-CHWImageEditorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHWImageEditorView_Example.modulemap"; sourceTree = "<group>"; };
+		FDD22C048BEC47853A137354625FC004 /* ResourceBundle-CHWImageEditorView-CHWImageEditorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CHWImageEditorView-CHWImageEditorView-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5329137C42CB567DB06F2890432553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6189F7ACD385AE6C2D37FCA8A165714C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D424822908FE95D6448A499EA1DBF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1ECFC67DF13D410BD01353788CBA58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20ECBB2DF83A008369F83465E94FDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC9137EC70683ECD67B420F6EA68B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD96FEEF716AC8AAB75A160241F77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CE6D58FA664244A38E00BADC9578B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2411FE39F32299707393F6FA5E60AA63 /* Pods-CHWImageEditorView_Example */,
+				3E46BF2DAF64D1CB6B18C768E32B535C /* Pods-CHWImageEditorView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2411FE39F32299707393F6FA5E60AA63 /* Pods-CHWImageEditorView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD914C56B0A97FD73276FE07D0401C38 /* Pods-CHWImageEditorView_Example.modulemap */,
+				7F6C44F62A800F709CE77D77B51066D9 /* Pods-CHWImageEditorView_Example-acknowledgements.markdown */,
+				11F40B545B245F481DE201742FD22667 /* Pods-CHWImageEditorView_Example-acknowledgements.plist */,
+				9B1306C1433FB6952375607E33413677 /* Pods-CHWImageEditorView_Example-dummy.m */,
+				B37F7C609DAE70AFC6F2759977DD899F /* Pods-CHWImageEditorView_Example-frameworks.sh */,
+				9E89A11673E52C27EB9260F084A34732 /* Pods-CHWImageEditorView_Example-Info.plist */,
+				A036E66A5B804A6D9CCA181307948A89 /* Pods-CHWImageEditorView_Example-umbrella.h */,
+				9B983AA235AB196537963450AC58D572 /* Pods-CHWImageEditorView_Example.debug.xcconfig */,
+				6A3FDC24E4D31CD1749E1D4593B7F67C /* Pods-CHWImageEditorView_Example.release.xcconfig */,
+			);
+			name = "Pods-CHWImageEditorView_Example";
+			path = "Target Support Files/Pods-CHWImageEditorView_Example";
+			sourceTree = "<group>";
+		};
+		3E46BF2DAF64D1CB6B18C768E32B535C /* Pods-CHWImageEditorView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4339BC013B6AB6B1D5D8D12EAF2D7F47 /* Pods-CHWImageEditorView_Tests.modulemap */,
+				E1A30DCDC3EDD9F77A8E1FD7A2C5B8C0 /* Pods-CHWImageEditorView_Tests-acknowledgements.markdown */,
+				877B92485ECDE5CC8F7C59D07D8D571E /* Pods-CHWImageEditorView_Tests-acknowledgements.plist */,
+				1633B0EB35198E3136EC65C0B5370B41 /* Pods-CHWImageEditorView_Tests-dummy.m */,
+				2D0A4185C355D76C0E0EB2865BF0F125 /* Pods-CHWImageEditorView_Tests-Info.plist */,
+				C4953BA977DDC4A5560B893625588595 /* Pods-CHWImageEditorView_Tests-umbrella.h */,
+				A4466D467F05399F98CC03B0CA520659 /* Pods-CHWImageEditorView_Tests.debug.xcconfig */,
+				0628F9776FD871A139843926D04B7560 /* Pods-CHWImageEditorView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHWImageEditorView_Tests";
+			path = "Target Support Files/Pods-CHWImageEditorView_Tests";
+			sourceTree = "<group>";
+		};
+		3F299293F293B19556A6B4BA9F236825 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60223BB8C7C7F27E21B1224306EBDB8F /* CHWImageEditorView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		51D17B3AD63898808050DEE30EA4705F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D674255C5614B08C133F7D7B7F34460 /* CHWImageEditorView.podspec */,
+				BA8F17A1AF92D3E587301DF72A0C07AE /* LICENSE */,
+				58E3DB9F1C6748799039B19602632244 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		60223BB8C7C7F27E21B1224306EBDB8F /* CHWImageEditorView */ = {
+			isa = PBXGroup;
+			children = (
+				67B3A47F99C5C0FD3BFBC6714E531155 /* CHWBarItem.h */,
+				4C5E3E774F49EBBA901DB545A9BDBA98 /* CHWBarItem.m */,
+				C8BB5CAF27DD4AA19D83864988F62635 /* CHWBottomBar.h */,
+				105F720BFBF0BADD7882FAC4BBB596C7 /* CHWBottomBar.m */,
+				A81C4C2E896BA6DC2483BCA940DFC9E5 /* CHWCollectionViewRotateCell.h */,
+				2143D7BAF882A8470522BFD0F0AF830C /* CHWCollectionViewRotateCell.m */,
+				0F6BEF575F44F97C84438B3862E6C0B2 /* CHWCropInfoModel.h */,
+				38D48E682BD61FE4E8449D9D7206CABE /* CHWCropInfoModel.m */,
+				EDE91E6B2557E4FE376CA7D469B8F076 /* CHWCropRotateToolBar.h */,
+				0E1E726D866670EB450EF6E034718B20 /* CHWCropRotateToolBar.m */,
+				1B30179FD2AA5E29F52D6033ECB856D2 /* CHWCropRotateView.h */,
+				613D50579522E18F6AC3E3080FDADFCD /* CHWCropRotateView.m */,
+				BC40F64B75D8DEE8BD7BCE98A370A8BA /* CHWGridOverlayView.h */,
+				B7158F5BFB2CD4118FF039CFACEEDD0C /* CHWGridOverlayView.m */,
+				F26F20C0F2DEF85AE7C82AABD5E11586 /* CHWMacroDefine.h */,
+				663E4877F5016B51A111D037E7DE7091 /* CHWMaskView.h */,
+				16CF5F451597B7C095FFE525EDBC3374 /* CHWMaskView.m */,
+				5881B8B7E0F44CF579A34E8B58A26C96 /* CHWScrollView.h */,
+				D0B32902034D19A2266AECF478B3796C /* CHWScrollView.m */,
+				5F051A087BAE94D288828DD89C7FA4E0 /* CHWShapeView.h */,
+				8DC7B7FEA858975EBC31055517AF467B /* CHWShapeView.m */,
+				002A86C01D3693977088422F57B991AD /* CHWUtils.h */,
+				C5500C23CAB46C35A23920FFC6F10346 /* CHWUtils.m */,
+				DFCE384927FAC2AA16E013BF68DE4F0D /* CropBoxFreeAspectFrameBuilder.h */,
+				582C133226F3714843C34AAE3252FCAF /* CropBoxFreeAspectFrameBuilder.m */,
+				77C4ECFEE6D4F24C7CE39FDEABDFC730 /* CropBoxLockedAspectFrameBuilder.h */,
+				912A4C89E7E0A1117652D6DFEFF69210 /* CropBoxLockedAspectFrameBuilder.m */,
+				10C7E8AC588CB0BA181576316C299CF8 /* CropRotateConfig.h */,
+				D5395E5388F4AA36D809B1AA82A49ECC /* CropRotateConfig.m */,
+				993BD854B55B39B2737E9CCE8A1F66E9 /* UIImage+CHWImageTool.h */,
+				B4373809BCDF73ABD787AC8951E180CC /* UIImage+CHWImageTool.m */,
+				59DA08433A91A3104096943E5A835460 /* UIImage+EditImageWithColor.h */,
+				FA77D70899C2DAC873968F4C2631865C /* UIImage+EditImageWithColor.m */,
+				C1A636DBB816AF2E357A9B6D0B64A993 /* CHWWheelDial */,
+				51D17B3AD63898808050DEE30EA4705F /* Pod */,
+				BADE4688DDBEB582D6A95D12A425ACB9 /* Resources */,
+				6F5062A49703FCEFA8D787BD66ECA376 /* Support Files */,
+			);
+			name = CHWImageEditorView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F5062A49703FCEFA8D787BD66ECA376 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45EA4E3E9A7B970D416367BD328D5FD4 /* CHWImageEditorView.modulemap */,
+				D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */,
+				0BA07020442B93F11EF27EBEC8BC99FF /* CHWImageEditorView-dummy.m */,
+				47A9B5EB3FE4BEC3E7D2CF1C43BCA534 /* CHWImageEditorView-Info.plist */,
+				E9CEED51A37664ECA2B3F6BFAE387A80 /* CHWImageEditorView-prefix.pch */,
+				F88047A9C3FD11531BFA1A622F393DD5 /* CHWImageEditorView-umbrella.h */,
+				FDD22C048BEC47853A137354625FC004 /* ResourceBundle-CHWImageEditorView-CHWImageEditorView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHWImageEditorView";
+			sourceTree = "<group>";
+		};
+		BADE4688DDBEB582D6A95D12A425ACB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5429081C8A0E43D796A1E877655FD887 /* CHWCollectionViewRotateCell.xib */,
+				55E1FFE55A484D097EB3229C0B782237 /* en.lproj */,
+				9D91247113664CC35B0D16D834B4EF5C /* rotate_left_off@3x.png */,
+				CBF74B117AE682F80C9AE593A7C3E230 /* rotate_left_on@3x.png */,
+				02630AA86470AFE223F7B1A906C5F025 /* rotate_right_off@3x.png */,
+				C2A325D0494158C3D19C7EB0CA0096CD /* rotate_right_on@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1A636DBB816AF2E357A9B6D0B64A993 /* CHWWheelDial */ = {
+			isa = PBXGroup;
+			children = (
+				CDA5C008F792358BBAFEB72C88FF41CB /* CHWAngle.h */,
+				D462282384F5518DA6808BF8970613F9 /* CHWAngle.m */,
+				2B4C9A6713474E5A5390EE85C79A7271 /* CHWConfigModel.h */,
+				5A7B98B35252057A9FFEF8AAFFC93E3D /* CHWConfigModel.m */,
+				3AFAE13638B8361FFF0AD3F8CB8E0965 /* CHWWheelDial.h */,
+				C1D8015087DEC5C1ECF44738E2A8325F /* CHWWheelDial.m */,
+				F8B4CC30F6DE7E9982328F026D0C2D1C /* RotationCalculator.h */,
+				893F7DEA8800BF4908B65427B354B3DA /* RotationCalculator.m */,
+			);
+			name = CHWWheelDial;
+			path = CHWImageEditorView/Classes/CHWWheelDial;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3F299293F293B19556A6B4BA9F236825 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F025708F04D1657297E78A5BB16026D1 /* Products */,
+				00CE6D58FA664244A38E00BADC9578B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F025708F04D1657297E78A5BB16026D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96C6BF187E44C8148B44E31EC02D7EC /* CHWImageEditorView.bundle */,
+				711249EF87C9EAA126BA922DB3F38734 /* CHWImageEditorView.framework */,
+				5BC8FDD1C6E7CE1594CA4217B800E58E /* Pods_CHWImageEditorView_Example.framework */,
+				AEA5DD06FC929FAB1656BB80D8CAC743 /* Pods_CHWImageEditorView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BA94AE87BF46DD158AA2EEA3AEA1FCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5854E55C6B39365D8168D267D87FCBA /* Pods-CHWImageEditorView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4F5BD3AFA0FB1FF509692735CFB4E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9535B70AC5AF6AB23EADE064B7F40 /* Pods-CHWImageEditorView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD84561C634B3C1B1558744B9DC7E16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455F132F3860B3116C8B8CB97CF6E36A /* CHWAngle.h in Headers */,
+				06C7C5C943A564A2AFE60FE4B225A693 /* CHWBarItem.h in Headers */,
+				D99E2EE8130275E6AB14A9245D114C64 /* CHWBottomBar.h in Headers */,
+				1317DB013FE19B656D6E891439EAD2BA /* CHWCollectionViewRotateCell.h in Headers */,
+				F950766A115CDAD2363F2A927DF97F86 /* CHWConfigModel.h in Headers */,
+				62764237D1ABEC2AC1AB8E651B6E0C8A /* CHWCropInfoModel.h in Headers */,
+				B34600FA5D53775DD4ADBE2869FDCE93 /* CHWCropRotateToolBar.h in Headers */,
+				5B34DEDA2ACB5096085E940DB2236AF4 /* CHWCropRotateView.h in Headers */,
+				5DBD4BBF8180DA343F0E2526E68EDDC6 /* CHWGridOverlayView.h in Headers */,
+				6ED2743624A5707692C03FEE68574C8E /* CHWImageEditorView-umbrella.h in Headers */,
+				FDEAC7EDD0E5ABBE2EE1D1C9C086CDA0 /* CHWMacroDefine.h in Headers */,
+				F5F0BF2BD507BC543ECEE77A5B396332 /* CHWMaskView.h in Headers */,
+				F56DF6C4BFB493D83522E350FB14C468 /* CHWScrollView.h in Headers */,
+				19D01CC161490FD1B9774DD42E815A55 /* CHWShapeView.h in Headers */,
+				BB6BE0469CF73AFE34AE22BA54225483 /* CHWUtils.h in Headers */,
+				B11EDF1A56FF59392B6BAB6FC2F27D86 /* CHWWheelDial.h in Headers */,
+				399269583E817A306CC568297672EDF7 /* CropBoxFreeAspectFrameBuilder.h in Headers */,
+				1CF34EA942184F935F0CC3FB9677A1E8 /* CropBoxLockedAspectFrameBuilder.h in Headers */,
+				4214F20F6113D215605911D15496C580 /* CropRotateConfig.h in Headers */,
+				2B0BB4553D17B4F651C954F53976BD42 /* RotationCalculator.h in Headers */,
+				6B31A2BDA17EAE4214799EFED217455F /* UIImage+CHWImageTool.h in Headers */,
+				AB4641506CC4F549729841F75A802DBD /* UIImage+EditImageWithColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CD33E86BEC541EA4130CEF9F6694E16 /* CHWImageEditorView-CHWImageEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FD213CF321C661983DF6E6D709D717 /* Build configuration list for PBXNativeTarget "CHWImageEditorView-CHWImageEditorView" */;
+			buildPhases = (
+				47F59588F4200C404677595F55633661 /* Sources */,
+				B4DD96FEEF716AC8AAB75A160241F77B /* Frameworks */,
+				4F6DB2E3469EDB181E4767359031568C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CHWImageEditorView-CHWImageEditorView";
+			productName = "CHWImageEditorView-CHWImageEditorView";
+			productReference = F96C6BF187E44C8148B44E31EC02D7EC /* CHWImageEditorView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		55255909ACB4AE2AEB8E38BD25B88DFC /* CHWImageEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89923C9EEFCFB921E1974DC08366D75B /* Build configuration list for PBXNativeTarget "CHWImageEditorView" */;
+			buildPhases = (
+				FCD84561C634B3C1B1558744B9DC7E16 /* Headers */,
+				26D87CC93E65B08AB9BBE0E1F3904942 /* Sources */,
+				3D424822908FE95D6448A499EA1DBF87 /* Frameworks */,
+				0F1E692B115BE842DD4AFCC326C5E1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58149DAC12B0A252C8A2DCD756F468AC /* PBXTargetDependency */,
+			);
+			name = CHWImageEditorView;
+			productName = CHWImageEditorView;
+			productReference = 711249EF87C9EAA126BA922DB3F38734 /* CHWImageEditorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AEF54FFF0F9530FDB9CA4C9E4D76153 /* Pods-CHWImageEditorView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BFB241F878860E48CCCB40FBCC72D0 /* Build configuration list for PBXNativeTarget "Pods-CHWImageEditorView_Tests" */;
+			buildPhases = (
+				DC4F5BD3AFA0FB1FF509692735CFB4E5 /* Headers */,
+				D59614B3FD293930BD8CE858994B42F9 /* Sources */,
+				A20ECBB2DF83A008369F83465E94FDF1 /* Frameworks */,
+				F5CECEAFFEE0DC8C8B7FD08F609B2EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A601FE290AD933F2E6525637C82E5E /* PBXTargetDependency */,
+			);
+			name = "Pods-CHWImageEditorView_Tests";
+			productName = "Pods-CHWImageEditorView_Tests";
+			productReference = AEA5DD06FC929FAB1656BB80D8CAC743 /* Pods_CHWImageEditorView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B36310AF8362D8EB0EE2796FDE80A05C /* Pods-CHWImageEditorView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C1B937B8BBFF1ACC0FDD88616DF960 /* Build configuration list for PBXNativeTarget "Pods-CHWImageEditorView_Example" */;
+			buildPhases = (
+				1BA94AE87BF46DD158AA2EEA3AEA1FCD /* Headers */,
+				C4ADFC3B1966D7B79576FEFC341E9A2F /* Sources */,
+				2B5329137C42CB567DB06F2890432553 /* Frameworks */,
+				EC86E0B1A5243300B6F46BAC305151C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9E009A8C91365CD73BC54E9B897966 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHWImageEditorView_Example";
+			productName = "Pods-CHWImageEditorView_Example";
+			productReference = 5BC8FDD1C6E7CE1594CA4217B800E58E /* Pods_CHWImageEditorView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F025708F04D1657297E78A5BB16026D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55255909ACB4AE2AEB8E38BD25B88DFC /* CHWImageEditorView */,
+				2CD33E86BEC541EA4130CEF9F6694E16 /* CHWImageEditorView-CHWImageEditorView */,
+				B36310AF8362D8EB0EE2796FDE80A05C /* Pods-CHWImageEditorView_Example */,
+				7AEF54FFF0F9530FDB9CA4C9E4D76153 /* Pods-CHWImageEditorView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1E692B115BE842DD4AFCC326C5E1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0580FBCCAF01DD870515B24F9EA302D /* CHWImageEditorView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F6DB2E3469EDB181E4767359031568C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26E23761530EDD2C53838D460690CBF /* CHWCollectionViewRotateCell.xib in Resources */,
+				9F42E5DB5484825723C2D99051F5E203 /* en.lproj in Resources */,
+				DB2A381CD6DED0369A4E7B8550BFE859 /* rotate_left_off@3x.png in Resources */,
+				1E2540EF91891EAFAC85C778257B090C /* rotate_left_on@3x.png in Resources */,
+				277A91F08220F6555FFF6C4F0D829F6D /* rotate_right_off@3x.png in Resources */,
+				0A566D0B0E90014408E46F1CF1385AF5 /* rotate_right_on@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86E0B1A5243300B6F46BAC305151C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CECEAFFEE0DC8C8B7FD08F609B2EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D87CC93E65B08AB9BBE0E1F3904942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEA0DECE96FDCAE7FA02EA92A532120 /* CHWAngle.m in Sources */,
+				A925E0D84155C60CD28471A12FBB5175 /* CHWBarItem.m in Sources */,
+				DD51DA98A148366A4A8F764FDAF88E0B /* CHWBottomBar.m in Sources */,
+				E604B2006077D5479921E52F632891A4 /* CHWCollectionViewRotateCell.m in Sources */,
+				F03285F1E6FF0A86B41EFFAA7B98E67B /* CHWConfigModel.m in Sources */,
+				8032B894C474ABE2F69300821FB04173 /* CHWCropInfoModel.m in Sources */,
+				3D9D414864988422ED0046EC0768431D /* CHWCropRotateToolBar.m in Sources */,
+				27CF0B146BE4B35AFD28BF39EF493179 /* CHWCropRotateView.m in Sources */,
+				64255F5F6DE20BA34FA9217508AACBAB /* CHWGridOverlayView.m in Sources */,
+				E64A2F94685083A11F31693BF67F23A9 /* CHWImageEditorView-dummy.m in Sources */,
+				DBD05DA6FF88B6A03F780F03C642DC2F /* CHWMaskView.m in Sources */,
+				07A257FECE4B4A8C42BECC975286C7A6 /* CHWScrollView.m in Sources */,
+				852BDD0EE19BDF9A4C969E3D4EC7A1C3 /* CHWShapeView.m in Sources */,
+				39AB0C5DF86AAE6643B9A9A0BE372C47 /* CHWUtils.m in Sources */,
+				DC3BA37CD013D5F6D0413CFC64DE750A /* CHWWheelDial.m in Sources */,
+				3C80D14B4ED5D94E9B4B7219BCF74671 /* CropBoxFreeAspectFrameBuilder.m in Sources */,
+				7CE4E5F8DDB2A0FDD27E532E88E73F4C /* CropBoxLockedAspectFrameBuilder.m in Sources */,
+				DFFBAF66C6C52A8536BA0218F9371C0B /* CropRotateConfig.m in Sources */,
+				6DF38C1C72FD3E70B2613381F107488D /* RotationCalculator.m in Sources */,
+				1B129ED359D9FD9721465F3B2E48DD99 /* UIImage+CHWImageTool.m in Sources */,
+				46E203296E51DD3D92009E23D5FF3E5C /* UIImage+EditImageWithColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F59588F4200C404677595F55633661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ADFC3B1966D7B79576FEFC341E9A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAAA2F15A9B8365BC06D0DAD72DDD83 /* Pods-CHWImageEditorView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59614B3FD293930BD8CE858994B42F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6562CE9ADF89FA1D1D7B68E7A420C641 /* Pods-CHWImageEditorView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9E009A8C91365CD73BC54E9B897966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHWImageEditorView;
+			target = 55255909ACB4AE2AEB8E38BD25B88DFC /* CHWImageEditorView */;
+			targetProxy = 499D0F4487FB7443774F387856EDD084 /* PBXContainerItemProxy */;
+		};
+		21A601FE290AD933F2E6525637C82E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHWImageEditorView_Example";
+			target = B36310AF8362D8EB0EE2796FDE80A05C /* Pods-CHWImageEditorView_Example */;
+			targetProxy = 2D7E41ADF6A633FDF17C2BD1EA0326E4 /* PBXContainerItemProxy */;
+		};
+		58149DAC12B0A252C8A2DCD756F468AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CHWImageEditorView-CHWImageEditorView";
+			target = 2CD33E86BEC541EA4130CEF9F6694E16 /* CHWImageEditorView-CHWImageEditorView */;
+			targetProxy = C34C3CD16D216293B49B0E0CB62A146D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42901D9D129C4ACD895B80C2C986BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHWImageEditorView";
+				IBSC_MODULE = CHWImageEditorView;
+				INFOPLIST_FILE = "Target Support Files/CHWImageEditorView/ResourceBundle-CHWImageEditorView-CHWImageEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CHWImageEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D823B87084266EC30F2B83692CA8B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHWImageEditorView";
+				IBSC_MODULE = CHWImageEditorView;
+				INFOPLIST_FILE = "Target Support Files/CHWImageEditorView/ResourceBundle-CHWImageEditorView-CHWImageEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CHWImageEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A986768205888375FDAC4350A4844A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3FDC24E4D31CD1749E1D4593B7F67C /* Pods-CHWImageEditorView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA56F22498D4166D354EDBB64076A73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHWImageEditorView/CHWImageEditorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHWImageEditorView/CHWImageEditorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHWImageEditorView/CHWImageEditorView.modulemap";
+				PRODUCT_MODULE_NAME = CHWImageEditorView;
+				PRODUCT_NAME = CHWImageEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D71207B404953213EAC3788640398F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0628F9776FD871A139843926D04B7560 /* Pods-CHWImageEditorView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D981E03CAFDD06E2A5BD61DC6F14E56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B983AA235AB196537963450AC58D572 /* Pods-CHWImageEditorView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E10AAB578755CDD7432F04B037C274D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4466D467F05399F98CC03B0CA520659 /* Pods-CHWImageEditorView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26F327E0A1D0F4D0FF91D352DC71E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C899DBEB1338C7498AF2AAD4583378 /* CHWImageEditorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHWImageEditorView/CHWImageEditorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHWImageEditorView/CHWImageEditorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHWImageEditorView/CHWImageEditorView.modulemap";
+				PRODUCT_MODULE_NAME = CHWImageEditorView;
+				PRODUCT_NAME = CHWImageEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BFB241F878860E48CCCB40FBCC72D0 /* Build configuration list for PBXNativeTarget "Pods-CHWImageEditorView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10AAB578755CDD7432F04B037C274D7 /* Debug */,
+				D71207B404953213EAC3788640398F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89923C9EEFCFB921E1974DC08366D75B /* Build configuration list for PBXNativeTarget "CHWImageEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26F327E0A1D0F4D0FF91D352DC71E96 /* Debug */,
+				CA56F22498D4166D354EDBB64076A73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FD213CF321C661983DF6E6D709D717 /* Build configuration list for PBXNativeTarget "CHWImageEditorView-CHWImageEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42901D9D129C4ACD895B80C2C986BA17 /* Debug */,
+				8D823B87084266EC30F2B83692CA8B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C1B937B8BBFF1ACC0FDD88616DF960 /* Build configuration list for PBXNativeTarget "Pods-CHWImageEditorView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D981E03CAFDD06E2A5BD61DC6F14E56B /* Debug */,
+				A986768205888375FDAC4350A4844A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

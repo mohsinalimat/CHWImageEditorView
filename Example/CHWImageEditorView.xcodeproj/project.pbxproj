@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1B119B968DF673E543170200 /* Pods_CHWImageEditorView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69D6EA3EC1527B24BD783B4 /* Pods_CHWImageEditorView_Example.framework */; };
+		1F14D11D23B33BAF001776C9 /* CHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F14D11B23B33BAF001776C9 /* CHWViewController.m */; };
+		1F14D12A23B360F9001776C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F14D12923B360F9001776C9 /* ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CHWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CHWAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CHWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F14D11B23B33BAF001776C9 /* CHWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWViewController.m; sourceTree = "<group>"; };
+		1F14D11C23B33BAF001776C9 /* CHWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWViewController.h; sourceTree = "<group>"; };
+		1F14D12823B360F9001776C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F14D12923B360F9001776C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43EA2476C1DC01143204F955 /* Pods-CHWImageEditorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHWImageEditorView_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		458507A920961B8221C85BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		458507A920961B8221C85BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5786EFE1B2F4EB79C251AEC2 /* Pods-CHWImageEditorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHWImageEditorView_Example.release.xcconfig"; path = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		597141600359BD6ABE5D32E3 /* CHWImageEditorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHWImageEditorView.podspec; path = ../CHWImageEditorView.podspec; sourceTree = "<group>"; };
+		597141600359BD6ABE5D32E3 /* CHWImageEditorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHWImageEditorView.podspec; path = ../CHWImageEditorView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CHWImageEditorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHWImageEditorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +56,6 @@
 		6003F59B195388D20070C39A /* CHWImageEditorView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHWImageEditorView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CHWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CHWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CHWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CHWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CHWImageEditorView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHWImageEditorView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,7 +69,7 @@
 		A2853239D4C4D06E97DA7DF3 /* Pods_CHWImageEditorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHWImageEditorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69D6EA3EC1527B24BD783B4 /* Pods_CHWImageEditorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHWImageEditorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7594505F2DCB2339856E0BD /* Pods-CHWImageEditorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHWImageEditorView_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FA9F81090E4B836E01CBBD6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA9F81090E4B836E01CBBD6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				8D8A834A6B7A0854CD0F14D7 /* Pods-CHWImageEditorView_Tests.debug.xcconfig */,
 				43EA2476C1DC01143204F955 /* Pods-CHWImageEditorView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,14 +146,16 @@
 		6003F593195388D20070C39A /* Example for CHWImageEditorView */ = {
 			isa = PBXGroup;
 			children = (
+				1F14D11C23B33BAF001776C9 /* CHWViewController.h */,
+				1F14D11B23B33BAF001776C9 /* CHWViewController.m */,
 				6003F59C195388D20070C39A /* CHWAppDelegate.h */,
 				6003F59D195388D20070C39A /* CHWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CHWViewController.h */,
-				6003F5A6195388D20070C39A /* CHWViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				1F14D12823B360F9001776C9 /* ViewController.h */,
+				1F14D12923B360F9001776C9 /* ViewController.m */,
 			);
 			name = "Example for CHWImageEditorView";
 			path = CHWImageEditorView;
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				63BF7BE4592621FBCAEFBEAD /* [CP] Embed Pods Frameworks */,
+				FCBCCF1DE8BB418A8B980205 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,24 +322,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		63BF7BE4592621FBCAEFBEAD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CHWImageEditorView/CHWImageEditorView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHWImageEditorView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D17B1988F634334DFBE4F954 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +344,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FCBCCF1DE8BB418A8B980205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHWImageEditorView/CHWImageEditorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHWImageEditorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -364,8 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F14D11D23B33BAF001776C9 /* CHWViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CHWAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CHWViewController.m in Sources */,
+				1F14D12A23B360F9001776C9 /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
