@@ -70,19 +70,17 @@
     if (!colorSpace) {
         return self;
     }
-    bool isSupportsOutput = CGColorSpaceSupportsOutput(colorSpace);
-    if (!isSupportsOutput) {
-        colorSpace = CGColorSpaceCreateDeviceRGB();
+    if (@available(iOS 10, *)) {
+        bool isSupportsOutput = CGColorSpaceSupportsOutput(colorSpace);
+        if (!isSupportsOutput) {
+            colorSpace = CGColorSpaceCreateDeviceRGB();
+        }
     }
     
     CGFloat expectedWidth = floor(sourceSize.width / imageViewSize.width * cropSize.width) / zoomScale;
     CGFloat expectedHeight = floor(sourceSize.height / imageViewSize.height * cropSize.height) / zoomScale;
     
     CGRect deviceRect = CGRectMake(0, 0, expectedWidth, expectedHeight);
-    if (shapeType == CIRCLE_SHAPE || shapeType == HALF_CIRCLE_SHAPE || shapeType == STAR_SHAPE || shapeType == SECTOR_SHAPE) {
-        CGFloat minValue = MIN(expectedWidth, expectedHeight);
-        deviceRect = CGRectMake((expectedWidth-minValue)/2.0, (expectedHeight-minValue)/2.0, minValue, minValue);
-    }
     
     CGSize outputSize = CGSizeMake(expectedWidth, expectedHeight);
     CGFloat bitmapBytesPerRow = 0;

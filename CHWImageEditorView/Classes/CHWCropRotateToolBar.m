@@ -21,7 +21,7 @@
 #define CROP_SHAPE_COLLECTIONVIEW_TAG  2883
 #define ROTATE_PROPERTY_COLLECTIONVIEW_TAG  2884
 
-@interface CHWCropRotateToolBar()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface CHWCropRotateToolBar()<UICollectionViewDataSource,UICollectionViewDelegate,CHWBarDelegate>
 @property(nonatomic,strong)UICollectionView* mCropRatiosCollection;
 @property(nonatomic,strong)UICollectionView* mCropShapeCollection;
 @property(nonatomic,strong)UICollectionView* mRotateComponeCollectionView;

@@ -45,7 +45,7 @@
 		43EA2476C1DC01143204F955 /* Pods-CHWImageEditorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHWImageEditorView_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHWImageEditorView_Tests/Pods-CHWImageEditorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		458507A920961B8221C85BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5786EFE1B2F4EB79C251AEC2 /* Pods-CHWImageEditorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHWImageEditorView_Example.release.xcconfig"; path = "Target Support Files/Pods-CHWImageEditorView_Example/Pods-CHWImageEditorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		597141600359BD6ABE5D32E3 /* CHWImageEditorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHWImageEditorView.podspec; path = ../CHWImageEditorView.podspec; sourceTree = "<group>"; };
+		597141600359BD6ABE5D32E3 /* CHWImageEditorView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHWImageEditorView.podspec; path = ../CHWImageEditorView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* CHWImageEditorView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHWImageEditorView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -503,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHWImageEditorView/CHWImageEditorView-Prefix.pch";
 				INFOPLIST_FILE = "CHWImageEditorView/CHWImageEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHWImageEditorView/CHWImageEditorView-Prefix.pch";
 				INFOPLIST_FILE = "CHWImageEditorView/CHWImageEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

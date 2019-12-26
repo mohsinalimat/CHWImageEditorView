@@ -20,7 +20,6 @@
 +(UIBezierPath*)getTrianglePath:(CGRect)rect;
 
 #pragma make - HeartBezierPath
-+(UIBezierPath*)getHexagonShapeBezierPath:(CGRect)rect;
 
 +(UIBezierPath*)getHopHexagonShapeBezierPath:(CGRect)rect;
 

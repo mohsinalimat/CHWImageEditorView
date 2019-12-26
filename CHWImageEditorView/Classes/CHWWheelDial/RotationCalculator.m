@@ -45,11 +45,14 @@
     NSDecimalNumber *deciNumX1 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%f",point.x]];
     NSDecimalNumber *deciNumX2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%f",_midPoint.x]];
     NSDecimalNumber *deciNumX = [deciNumX1 decimalNumberBySubtracting:deciNumX2];
+    float dx = deciNumX.floatValue;
     
     NSDecimalNumber *deciNumY1 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%f",point.y]];
     NSDecimalNumber *deciNumY2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%f",_midPoint.y]];
     NSDecimalNumber *deciNumY = [deciNumY1 decimalNumberBySubtracting:deciNumY2];
-    CGFloat angle = -atan2f(point.x-_midPoint.x, point.y-_midPoint.y) + M_PI_2;
+    float dy = deciNumY.floatValue;
+    
+    CGFloat angle = -atan2f(dx, dy) + M_PI_2;
     
     if (angle < 0) {
         angle += M_PI * 2;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHWImageEditorView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of CHWImageEditorView.'
 
 
@@ -20,14 +20,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Image Cropping Library for ios
+CHWImageEditorView - Image Cropping and Rotate Library for ios
+
                        DESC
 
-  s.homepage         = 'https://github.com/JackyHeWei/CHWImageEditorView'
+  s.homepage         = 'https://github.com/JackyHe2882/CHWImageEditorView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JackyHeWei' => 'Cherish_wei_he@163.com' }
-  s.source           = { :git => 'https://github.com/JackyHeWei/CHWImageEditorView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JackyHe2882/CHWImageEditorView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
