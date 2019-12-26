@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/CHWImageEditorView.svg?style=flat)](https://cocoapods.org/pods/CHWImageEditorView)
 [![Platform](https://img.shields.io/cocoapods/p/CHWImageEditorView.svg?style=flat)](https://cocoapods.org/pods/CHWImageEditorView)
 
+ ![crop](./cropRotate.gif)
+ ![crop](./1.png)
+ ![crop](./2.png)
+ ![crop](./3.png)
+ ![crop](./4.png)
+
 ## Example
 You can use the CHWCropRotateView in your project, how to use the CHWCropRotateView ,you can find the detail in my example project.
 
